@@ -1,6 +1,7 @@
 import React from 'react';
 import { Linkedin, Github, Mail } from 'lucide-react';
 import { Typewriter } from 'react-simple-typewriter';
+import Image from 'next/image';
 
 const taglines = [
   "Writing code that works 90% of the time… the other 10% keeps me humble.",
@@ -80,7 +81,7 @@ const Hero: React.FC = () => {
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <div className="absolute inset-0 bg-blue-600 dark:bg-blue-500 rounded-full opacity-20 blur-xl"></div>
               <div className="absolute inset-4 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full opacity-20"></div>
-              <img 
+              <Image 
                 src="/baqir.png" 
                 alt="Mohammad Baqir Khan" 
                 className="absolute inset-0 w-full h-full object-cover rounded-full border-4 border-white dark:border-gray-800"
