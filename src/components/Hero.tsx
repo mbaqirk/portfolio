@@ -84,8 +84,8 @@ const Hero: React.FC = () => {
                 src="/baqir.png" 
                 alt="Mohammad Baqir Khan" 
                 className="absolute inset-0 w-full h-full object-cover rounded-full border-4 border-white dark:border-gray-800"
-                placeholder="blur" 
                 blurDataURL="data:..."
+                placeholder="blur" 
               />
             </div>
           </div>
