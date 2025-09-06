@@ -4,10 +4,16 @@ import React from 'react';
 const About: React.FC = () => {
   const education = [
     {
-      level: `Bachelor's of Computer Application`,
+      level: `Master of Computer Application`,
       institution: 'Integral University, Lucknow',
       period: 'Currently Pursuing',
-      details: '2022-Present'
+      details: '2025-Present'
+    },
+    {
+      level: `Bachelor of Computer Application`,
+      institution: 'Integral University, Lucknow',
+      period: 'Completed',
+      details: '2022-2025'
     },
     {
       level: 'Intermediate',
